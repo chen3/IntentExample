@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lidigo_a200">#536dfe</color>
+    <color name="windowBackground">#2F4159</color>
+    <color name="background">#39daf7</color>
+    <color name="buttonBackground">#39daf7</color>
+    <color name="white">@android:color/white</color>
+</resources>

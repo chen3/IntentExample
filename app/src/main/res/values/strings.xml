@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IntentExample</string>
+    <string name="welcome">欢迎</string>
+    <string name="add">添加</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="username_display">用户名为:%1$s</string>
+    <string name="password_display">密码为:%1$s</string>
+</resources>

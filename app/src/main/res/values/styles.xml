@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lidigo_a200</item>
+        <item name="colorPrimaryDark">@color/lidigo_a200</item>
+        <item name="colorAccent">@color/lidigo_a200</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="BaseAppTheme.BaseDisplayTheme">
+        <item name="colorPrimary">@color/windowBackground</item>
+        <item name="colorPrimaryDark">@color/windowBackground</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseAppTheme" />
+    <style name="DisplayTheme" parent="BaseAppTheme.BaseDisplayTheme" />
+
+    <style name="AppTheme.Button" parent="@style/Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/buttonBackground</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

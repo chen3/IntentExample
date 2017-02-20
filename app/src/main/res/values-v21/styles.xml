@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="BaseAppTheme" >
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/lidigo_a200</item>
+    </style>
+    <style name="DisplayTheme" parent="BaseAppTheme.BaseDisplayTheme" >
+        <item name="android:statusBarColor">@color/windowBackground</item>
+    </style>
+</resources>
