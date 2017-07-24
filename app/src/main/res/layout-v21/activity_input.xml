@@ -35,13 +35,14 @@
         <android.support.design.widget.TextInputLayout
             android:id="@+id/usernameLayout"
             android:layout_width="match_parent"
+            android:textColorHint="@android:color/white"
             android:layout_height="wrap_content" >
 
             <EditText
                 android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
                 android:drawableStart="@drawable/username"
                 android:drawablePadding="5dp"
                 android:hint="@string/username" />
@@ -53,14 +54,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/usernameLayout"
+            android:textColorHint="@android:color/white"
             android:layout_marginTop="10dp" >
 
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
                 android:hint="@string/password"
-                android:textColorHint="@android:color/white"
                 android:drawableStart="@drawable/password"
                 android:drawablePadding="5dp"
                 android:inputType="textPassword" />

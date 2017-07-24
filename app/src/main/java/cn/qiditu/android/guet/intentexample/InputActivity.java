@@ -27,12 +27,6 @@ public class InputActivity extends AppCompatActivity {
 
         fixEditTextLeftDrawable(textUsername);
         fixEditTextLeftDrawable(textPassword);
-
-        @ColorInt
-        int white = ContextCompat.getColor(this.getApplicationContext(),
-                                            android.R.color.white);
-        textUsername.setHintTextColor(white);
-        textPassword.setHintTextColor(white);
     }
 
     @BindView(R.id.username)
